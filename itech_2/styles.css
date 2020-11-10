@@ -2,19 +2,19 @@ input, article {
     display: none;
 }
 
-input:checked + label {
+input:checked+label {
     background: rgb(8, 88, 88);
     color: #FFF;
 }
-           
-input:nth-of-type(1):checked ~ article:nth-of-type(1) {
+
+input:nth-of-type(1):checked~article:nth-of-type(1) {
     display: block;
 }
 
-input:nth-of-type(2):checked ~ article:nth-of-type(2) {
+input:nth-of-type(2):checked~article:nth-of-type(2) {
     display: block;
 }
 
-input:nth-of-type(3):checked ~ article:nth-of-type(3) {
+input:nth-of-type(3):checked~article:nth-of-type(3) {
     display: block;
 }
