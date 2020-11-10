@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>itech_2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .block1 {
+            position: relative;
+            width: 50%;
+            top: 300px;
+            left: 300px;
+            background: rgb(0, 87, 138);
+            font-family: monospace;
+            font-size: xx-large;
+        }
+    </style>
+
+<body>
+    <div class="block1">TODO:<br>
+        1. Создать простой HTML-документ с произвольным содержимым, как минимум, содержащий блочные элементы (они
+        понадобятся для демонстрации стилей).<br>
+        2. Показать в созданном документе три способа использования каскадных таблиц стилей:<br>
+        inline-описание (используется атрибут style);<br>
+        с помощью контейнера style в секции заголовка;<br>
+        подключить стилевую таблицу, расположенную во внешнем файле;<br>
+        3. Используя селекторы CLASS и ID, показать использование стилей (например, для форматирование шрифта, текста,
+        изменения фона документа и т.д.)<br>
+        4. Показать использование абсолютного и относительного позиционирования.<br>
+        5. Показать использование плавающей модели (свойство float).<br>
+        6. Добавить в документ элементы согласно варианту.<br>
+        7. Проверить отображение созданного документа в разных браузерах (при их наличии).<br>
+        8. Внести в проект указанные преподавателем изменения.<br>
+    </div>
+    <div class="block2" style="background:rgb(22, 202, 202); position: absolute; top: 80px; left: 10px; font-size: xx-large;">
+        7. Добавить на страницу элемент, сдержащий переключаемые вкладки. Пример на рисунке.
+        <img src="example.png" style="float: left">
+        <br><br>inline описание стилей и абсолютное позиционирование – check
+    </div>
+    <div class="block3" style="background: rgb(8, 88, 88); position: absolute; top: 600px; left: 20px; float: left; font-size: xx-large;">
+        <input type="radio" id="tab1" name="tabs" checked="checked" />
+        <label for="tab1">Tab1</label>
+        <input type="radio" id="tab2" name="tabs" />
+        <label for="tab2">Tab2</label>
+        <input type="radio" id="tab3" name="tabs" />
+        <label for="tab3">Tab3</label>
+        <article>
+            minimalist
+        </article>
+        <article>
+            <br>
+            text
+        </article>
+        <article>
+            <br>
+            <br>
+            population
+        </article>
+    </div>
+</body>
+</head>
