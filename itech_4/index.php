@@ -6,7 +6,7 @@
     <style type="text/css">
         body {
             background-color: silver;
-            font-size: 24px;
+            font-size: 20px;
             text-align: center;
         }
     </style>
@@ -46,7 +46,6 @@ echo "<br>";
 ?>
        <div> <br>
             - выводит количество дублирущих элементов двух массивов; &#9989 <br><br>
-            Общее кол-во дублей:
             <?php
 print(2 * N - (count($array1_unique) + count($array2_unique)));
 ?> <br> <br>
