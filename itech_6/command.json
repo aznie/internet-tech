@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "5eb19ee0660571d16de110b4"
+  },
+  "name": "FC Shakhtar Donetsk",
+  "coach": "Coach1",
+  "players": [
+    "player1",
+    "player2",
+    "player3",
+    "player4",
+    "player5"
+  ]
+},
+{
+  "_id": {
+    "$oid": "5e5267975c0f0f0bb0343ea9"
+  },
+  "name": "FC Mariupol",
+  "coach": "Coach2",
+  "players": [
+    "player6",
+    "player7",
+    "player8",
+    "player9",
+    "player10"
+    ]
+},
+{
+  "_id": {
+    "$oid": "5e1bb57aaceb7acdaa8aae23"
+  },
+  "name": "FC Desna Chernihiv",
+  "coach": "Coach3",
+  "players": [
+    "player11",
+    "player12",
+    "player13",
+    "player14",
+    "player15"
+    ]
+}
+]

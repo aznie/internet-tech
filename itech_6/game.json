@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5eb1a429660571d16de110b6"
+  },
+  "league": "first",
+  "place": "Lozova",
+  "game": [
+    "FC Shakhtar Donetsk",
+    "FC Mariupol"
+  ],
+  "winner": "FC Shakhtar Donetsk",
+  "score": [
+    16,
+    0
+  ],
+  "date": {
+    "$date": "2021-02-03T04:05:06Z"
+  }
+}, 
+{
+  "_id": {
+    "$oid": "5ec9a735900142a61de980a1"
+  },
+  "league": "second",
+  "place": "Kharkiv",
+  "game": [
+    "FC Desna Chernihiv",
+    "FC Mariupol"
+  ],
+  "winner": "Draw",
+  "score": [
+    0,
+    0
+  ],
+  "date": {
+    "$date": "2021-02-03T04:05:06Z"
+  }}]
